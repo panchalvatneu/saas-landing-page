@@ -28,6 +28,11 @@ const nextConfig = {
     return config;
   },
 
+  // GitHub Pages config
+  basePath: "/saas-landing-page",
+  trailingSlash: true, // Ensures all paths have trailing slashes
+  assetPrefix: "/saas-landing-page/",
+
   // ...other config
 };
 
