@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next support",
+    "build": "next build",
     "deploy": "gh-pages -d out",
     "predeploy": "npm run build",
     "start": "next start",
@@ -15,7 +15,8 @@
     "framer-motion": "^11.2.14",
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",

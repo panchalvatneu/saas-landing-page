@@ -29,10 +29,15 @@ const nextConfig = {
   },
 
   // GitHub Pages config
-  basePath: "/saas-landing-page",
-  trailingSlash: true, // Ensures all paths have trailing slashes
-  assetPrefix: "/saas-landing-page/",
-
+  //output: process.env.NODE_ENV === "production" ? "export" : undefined,
+  reactStrictMode: true,
+  basePath: process.env.NODE_ENV === "production" ? "/saas-landing-page" : "", // Set the base path to match your GitHub Pages subpath
+  assetPrefix:
+    process.env.NODE_ENV === "production" ? "/saas-landing-page/" : "", // Set the asset prefix to match the subpath
+  images: {
+    unoptimized: true,
+  },
+  //trailingSlash: true, // Ensures all paths have trailing slashes
   // ...other config
 };
 
