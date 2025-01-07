@@ -29,7 +29,7 @@ const nextConfig = {
   },
 
   // GitHub Pages config
-  //output: process.env.NODE_ENV === "production" ? "export" : undefined,
+  output: process.env.NODE_ENV === "production" ? "export" : undefined,
   reactStrictMode: true,
   basePath: process.env.NODE_ENV === "production" ? "/saas-landing-page" : "", // Set the base path to match your GitHub Pages subpath
   assetPrefix:
