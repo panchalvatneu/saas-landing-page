@@ -1,6 +1,8 @@
 # Elegant Next.js Landing Page with Tailwind CSS
 
-An elegant, high-performance Next.js landing page that includes stunning parallax animations, infinite scrolling effects, and micro-interactions. Designed with Tailwind CSS for stylish, responsive layouts, this page offers smooth transitions and engaging animations that breathe life into every scroll.
+An elegant, high-performance Next.js landing page that includes stunning parallax animations, infinite scrolling effects, and micro-interactions. Designed with Tailwind CSS for stylish, responsive layouts, this page offers smooth transitions and engaging animations that breathe life into every scroll.  
+![Landing Page Demo](2025-01-0622-10-37-saas-landing-page.gif)
+
 
 ## Features
 * **Jaw-Dropping Parallax Animation:** Experience a seamless 60 FPS parallax effect that adds depth and dynamism to the page.
