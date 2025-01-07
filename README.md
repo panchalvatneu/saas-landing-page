@@ -42,6 +42,6 @@ The project is set up to be deployed using **GitHub Actions** for continuous dep
 **Deploy to GitHub Pages using GitHub Actions**  
 Ensure that GitHub Actions is enabled for your repository by going to the repository settings.
 
-A pre-configured GitHub Actions workflow has been set up in .github/workflows/deploy.yml to automatically build and deploy your project to GitHub Pages.
+A pre-configured GitHub Actions workflow has been set up in `.github/workflows/nextjs.yml` to automatically build and deploy your project to **GitHub Pages.**
 
-Here's the basic structure of the GitHub Actions workflow:
+
